@@ -64,8 +64,6 @@ static const Layout layouts[] = {
 /* --- commands --- */
 
 static const char *rofi[] = {"rofi", "-show", "run", "-modi", "file-browser"};
-
-/*  --- commands */
 static const char *termcmd[] = {"st", NULL};
 static const char *browser[] = {"chromium-browser", NULL};
 static const char *screenshot[] = {"/home/smoek/src/print.sh", NULL};
