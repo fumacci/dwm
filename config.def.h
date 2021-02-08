@@ -66,7 +66,7 @@ static const Layout layouts[] = {
 static const char *rofi[] = {"rofi", "-show", "run", "-modi", "file-browser"};
 static const char *termcmd[] = {"st", NULL};
 static const char *browser[] = {"chromium-browser", NULL};
-static const char *screenshot[] = {"/home/smoek/src/print.sh", NULL};
+static const char *screenshot[] = {"/home/smoek/src/print.sh", NULL}; // Script que eu tenho pra acomodar todos os 666 argumentos do scrot + xclip, não tá no repo
 static const char *emacs[] = {"emacs", NULL};
 
 /*  --- mpc commands --- */
